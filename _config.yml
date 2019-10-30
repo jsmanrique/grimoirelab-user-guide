@@ -1,0 +1,47 @@
+
+title: "GrimoireLab Guide"
+description: >-
+  GrimoireLab documentation
+permalink: pretty
+
+markdown: kramdown
+
+kramdown:
+  toc_levels: 2..3
+
+exclude:
+  - Gemfile
+  - Gemgile.lock
+  - node_mdules
+  - .gitignore
+  - vendor
+  - .bundle
+  - README.md
+
+# JUST THE DOCS CONFIG
+theme: "just-the-docs"
+#color_scheme: "dark"
+
+# Enable or disable the site search
+# Supports true (default) or false
+search_enabled: true
+
+# Enable support for hyphenated search words:
+search_tokenizer_separator: /[\s/]+/
+
+# Aux links for the upper right navigation
+aux_links:
+  "GrimoireLab on GitHub":
+    - "//github.com/chaoss/grimoirelab"
+
+# Heading anchor links appear on hover over h1-h6 tags in page content
+# allowing users to deep link to a particular heading on a page.
+#
+# Supports true (default) or false/nil
+heading_anchors: true
+
+# Footer content appears at the bottom of every page's main content
+footer_content: "Copyright &copy; 2019-2020 J. Manrique López de la Fuente. Distributed by an <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution-ShareAlike 4.0 International License</a>."
+
+# Google Analytics Tracking (optional)
+ga_tracking: 
