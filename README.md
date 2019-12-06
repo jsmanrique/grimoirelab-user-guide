@@ -21,7 +21,9 @@ $ bundle exec jekyll serve
 
 # How to contribute
 
-TBD
+We use the default GitHub workflow:
+* Report a bug or feature request by [opening an issue](https://github.com/jsmanrique/grimoirelab-user-guide/issues/new).
+* Suggest changes to the tutorial by [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
 
 # License
 
