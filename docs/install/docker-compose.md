@@ -69,11 +69,13 @@ Configuration is done through two files:
 * projects.json
 * setup.cfg
 
-Docker-Compoes is by default configured to look for these files in the 'default-grimoirelab-settings' folder. 
+Docker-Compose is by default configured to look for these files in the 'default-grimoirelab-settings' folder. 
 
 ```bash
 $ cd ../default-grimoirelab-settings
 ```
+
+The configuration is the same for all ways of installing GrimoireLab and thus explained in [the general installation page](./..).
 
 ## Error Handling
 

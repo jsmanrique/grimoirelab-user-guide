@@ -27,7 +27,7 @@ GrimoireLab needs to know what projects to collect data from.
 The default [projects.json](https://github.com/chaoss/grimoirelab/blob/master/default-grimoirelab-settings/projects.json) file is configured to collect metrics about the GrimoireLab git repository. 
 
 To start collecting data about the projects that matter to you, you need to define projects and data endpoints in the project.json file.
-The [GrimoireLab tutorial section on the projects file](https://chaoss.github.io/grimoirelab-tutorial/sirmordred/projects.html) explains how the file needs to be built.
+The [GrimoireLab tutorial section on the projects file](https://github.com/chaoss/grimoirelab-sirmordred#projectsjson) explains how the file needs to be built.
 
 ### Provide API keys and other configurations
 
