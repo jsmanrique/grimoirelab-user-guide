@@ -13,7 +13,7 @@ GrimoireLab offers three options for installation:
 * [Docker Compose](./docker-compose)
   - Use `docker-compose` if you want separate containers for the database.
 * [Docker](./docker)
-  - Use `docker` if you want to work with one self-contained container that includes everything.
+  - Use `docker run` if you want to work with one self-contained container that includes everything.
 * [PIP](./pip)
   - Use `pip` if you want to use GrimoireLab components individually.
 

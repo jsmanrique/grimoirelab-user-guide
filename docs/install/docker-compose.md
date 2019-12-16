@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Docker Compose Install
-nav_order: 2
+nav_order: 1
 parent: Install
 ---
 
 
-# Instal GrimoireLab using Docker Compose
+# Install GrimoireLab using Docker Compose
 
-Use this method for installing GrimoireLab if you want to:
+Use `docker-compose` for installing GrimoireLab if you want to:
 
 * have separate containers for databases
 * insight to the different components required to run GrimoireLab
@@ -16,31 +16,30 @@ Use this method for installing GrimoireLab if you want to:
 
 ## Prerequisites
 
-Make sure you have the following applications and services available:
+* **Software**: 
+  - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+  - [Docker](https://docs.docker.com/v17.09/engine/installation/)
+  - [Docker Compose](https://docs.docker.com/compose/install/)
+  - [Docker Machine](https://docs.docker.com/machine/install-machine/)
 
-- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-- [Docker](https://docs.docker.com/v17.09/engine/installation/)
-- [Docker Compose](https://docs.docker.com/compose/install/)
-- [Docker Machine](https://docs.docker.com/machine/install-machine/)
+Check that the software is available:
 
-You do this by running the following commands:
-
-```bash
+```console
 $ git --version
 $ docker --version
 $ docker-compose --version
 $ docker-machine --version
 ```
 
-Resources requirements depend on the number of projects and their size:
-- Plan for a minimum of 100GB of storage, 2 CPUs, and 8 GB of RAM for a analyzing a small project.
+* **Hardware**: Resources requirements depend on the number of projects and their size:
+  - Plan for a minimum of 100GB of storage, 2 CPUs, and 8 GB of RAM for a analyzing a small project.
 
 
-## Get Docker Compose Instructions
+## Docker Compose Instructions File
 
 The Docker Compose instructions `docker-compose.yml` are located in the GrimoireLab repository. Clone it to a local folder of your choice.
 
-```bash
+```console
 $ git clone https://github.com/chaoss/grimoirelab
 $ cd grimoirelab/docker-compose
 ```
@@ -52,7 +51,7 @@ Before starting GrimoireLab the first time, make sure to [set `vm.max_map_count`
 
 By default, GrimoireLab is ready to be started. 
 
-```bash
+```console
 $ docker-compose up -d
 ```
 Once your containers are all started successfully, go to http://localhost:5601 
@@ -71,7 +70,7 @@ Configuration is done through two files:
 
 Docker-Compose is by default configured to look for these files in the 'default-grimoirelab-settings' folder. 
 
-```bash
+```console
 $ cd ../default-grimoirelab-settings
 ```
 
