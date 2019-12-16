@@ -29,7 +29,9 @@ Open the site in the browser of your choice: http://127.0.0.1:4000
 
 # How to contribute
 
-TBD
+We use the default GitHub workflow:
+* Report a bug or feature request by [opening an issue](https://github.com/jsmanrique/grimoirelab-user-guide/issues/new).
+* Suggest changes to the tutorial by [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
 
 # License
 
