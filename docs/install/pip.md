@@ -29,6 +29,9 @@ $ sudo apt-get install python3-dev
 $ sudo apt-get install build-essential
 ```
 
+In order to run GrimoireLab, you need to have Elasticsearch, Kibiter and MySQL running in your machine. For the
+sake of simplicity, we assume that they run in localhost with no authentication needed.
+
 **Hardware**: Resources requirements depend on the number of projects and their size:
 - Plan for a minimum of 100GB of storage, 2 CPUs, and 8 GB of RAM for analyzing a small/medium size project.
 
@@ -91,9 +94,6 @@ Once installed, check that everything is as it should be:
 
 
 ### Run GrimoireLab
-
-In order to run GrimoireLab, you need to have Elasticsearch, Kibiter and MySQL running in your machine. For the
-sake of simplicity, we assume that they run in localhost with no authentication needed.
 
 GrimoireLab can be launched with the following command:
 ```console
